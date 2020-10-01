@@ -14,7 +14,7 @@ export const {
   Link,
   appWithTranslation,
   withTranslation,
-  useTranslation,
+  useTranslation
 } = NextI18NextInstance;
 
 export default NextI18NextInstance;
