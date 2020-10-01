@@ -5,8 +5,8 @@ const NextI18NextInstance = new NextI18Next({
   defaultLanguage: 'fr',
   defaultNS: 'common',
   localePath: path.resolve('./public/static/locales'),
-  otherLanguages: ['en', 'nl'],
-  localeSubpaths: { en: 'en', nl: 'nl' },
+  otherLanguages: ['en'],
+  localeSubpaths: { en: 'en' },
 });
 
 export const {
