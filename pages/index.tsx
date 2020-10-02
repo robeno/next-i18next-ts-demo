@@ -18,7 +18,7 @@ function IndexPage() {
 }
 
 IndexPage.getInitialProps = async () => ({
-  namespacesRequired: ['common'],
+  namespacesRequired: ['common']
 });
 
 export default IndexPage

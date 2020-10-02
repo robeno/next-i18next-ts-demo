@@ -19,7 +19,7 @@ function LoginPage() {
 }
 
 LoginPage.getInitialProps = async () => ({
-  namespacesRequired: ['auth'],
+  namespacesRequired: ['auth']
 });
 
 export default LoginPage
